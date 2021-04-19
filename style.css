@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding:0.5px;
+}
+
+
+@font-face {
+    src: url(Roboto-Medium.ttf);
+    font-family: 'Roboto-Medium'
+}
+
+h1{
+    text-align:left;
+    font-weight: 28px;
+    color: white;
+    margin-bottom: 10%;
+    background: rgba(255,255,255,0.2); 
+
+
+}
+
+
+body{
+
+    background:url(barbearia.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: 'Roboto-Medium'
+}
+
+
+
+#site {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    width: 560px;
+    padding: 20px;
+    margin-left: -300px; /* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
+    background: #FFF; /* fundo branco para navegadores que não suportam rgba */
+    background: rgba(255,255,255,0.8); 
+    margin-top: 5%
+
+
+}
+
+ul{
+    display: inline-block;
+}
+
+.imgbeneficios{
+    width: 50%;
+    margin-left: 250px;
+    margin-top: -100px;
+    
+
+}
+
+
+.itens{
+
+    background-color: white;
+    font-style: italic;
+    margin-left: 3%;
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+    font-style: oblique;
+    color: #000133;
+    height: 100px;
+
+}
+
+em strong{
+    color: #000133;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    
+
+}
+
+h3{
+    height: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+

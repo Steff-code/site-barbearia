@@ -1,0 +1,48 @@
+header{
+    background: rgba(255,255,255,0.6); 
+    padding: 20px 0;
+}
+* {
+    margin: auto;
+    padding:0.5px;
+}
+
+.caixa{
+
+    width: 0px;
+    margin: 0 auto;
+}
+
+nav {
+    position:absolute;
+    top: 25%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;    /*para aumentar a separação entre itens */
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font:bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+@font-face {
+    src: url(Roboto-Medium.ttf);
+    font-family: 'Roboto-Medium'
+}
+
+body{
+
+    background:url(barbearia.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: 'Roboto-Medium'
+}
